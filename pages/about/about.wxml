@@ -1,0 +1,128 @@
+<!--pages/about/about.wxml-->
+<scroll-view scroll-y class="scrollPage">
+  <view id="about">
+    <view class="banner">
+      <image class="" src="./../../images/bg3.jpg" />
+    </view>
+    <view class="cu-list menu-avatar">
+      <view class="cu-item">
+        <view class="cu-avatar round lg" style="background-image:url(/images/touxiang.jpg);"></view>
+        <view class="content">
+          <text class="text-cut">王昭</text>
+          <view class="cu-tag round bg-orange sm">两年前端工作经验</view>
+          <view class="text-gray text-sm flex">
+            <text class="text-cut">
+                <text class="margin-right-xs"></text>男 / 1995-12-16 / 大专 / 18243396711
+            </text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="cu-bar bg-white solid-bottom margin-top">
+      <view class='action'>
+        <text class='cuIcon-titles text-orange'></text> 个人优势
+      </view>
+    </view>
+    <view class="cu-list menu">
+      <view class="cu-item">
+        <view class="content">
+          <text class="cuIcon-circlefill text-grey"></text>
+          <text class="text-grey text-sm">1,熟练使用VScode等编辑器，熟练使用Html5,Css3,Javascript,JQuery等前端技术。</text>
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="content">
+          <text class="cuIcon-circlefill text-grey"></text>
+          <text class="text-grey text-sm">2,熟练使用Vue全家桶构建项目。</text>
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="content">
+          <text class="cuIcon-circlefill text-grey"></text>
+          <text class="text-grey text-sm">3,熟练使用React全家桶构建项目。</text>
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="content">
+          <text class="cuIcon-circlefill text-grey"></text>
+          <text class="text-grey text-sm">4,熟练掌握微信小程序开发。</text>
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="content">
+          <text class="cuIcon-circlefill text-grey"></text>
+          <text class="text-grey text-sm">5,熟练使用git,webpack,npm等前端工具。</text>
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="content">
+          <text class="cuIcon-circlefill text-grey"></text>
+          <text class="text-grey text-sm">6,熟悉前后端数据交互和Ajax等技术,能够协助后端人员进行接口设计开发。</text>
+        </view>
+      </view>
+      <view class="cu-item">
+        <view class="content">
+          <text class="cuIcon-circlefill text-grey"></text>
+          <text class="text-grey text-sm">7,了解、掌握mpvue,typescript,es6,less,等语法，能够快速搭建项目。</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class='cuIcon-titles text-orange'></text> 技能标签
+    </view>
+  </view>
+  <view class="padding-sm flex flex-wrap">
+    <view class="padding-xs">
+      <view class="cu-tag round bg-green">Vue</view>
+    </view>
+    <view class="padding-xs">
+      <view class="cu-tag round bg-red">React</view>
+    </view>
+    <view class="padding-xs">
+      <view class="cu-tag round bg-purple">小程序</view>
+    </view>
+    <view class="padding-xs">
+      <view class="cu-tag round bg-orange">Webpack</view>
+    </view>
+    <view class="padding-xs">
+      <view class="cu-tag round bg-yellow">Git</view>
+    </view>
+    <view class="padding-xs">
+      <view class="cu-tag round bg-olive">Less</view>
+    </view>
+    <view class="padding-xs">
+      <view class="cu-tag round bg-cyan">Axios</view>
+    </view>
+    <view class="padding-xs">
+      <view class="cu-tag round bg-cyan">ES6</view>
+    </view>
+    <view class="padding-xs">
+      <view class="cu-tag round bg-blue">JQuery</view>
+    </view>
+    <view class="padding-xs">
+      <view class="cu-tag round bg-pink">Html5</view>
+    </view>
+    <view class="padding-xs">
+      <view class="cu-tag round bg-mauve">Css3</view>
+    </view>
+    <view class="padding-xs">
+      <view class="cu-tag round bg-grey">Npm</view>
+    </view>
+  </view>
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class='action'>
+      <text class='cuIcon-titles text-orange'></text> 教育经历
+    </view>
+  </view>
+  <view class="cu-list menu">
+    <view class="cu-item">
+      <view class="content">
+        <text class="cuIcon-circlefill text-grey"></text>
+        <text class="text-grey text-sm">2013-2016 长春汽车工业高等专科学校</text>
+      </view>
+    </view>
+  </view>
+  <view class='cu-tabbar-height'></view>
+</scroll-view>

@@ -1,0 +1,8 @@
+/**index.wxss**/
+.banner{
+  width: 100%;
+}
+.banner image{
+  width: 100%;
+  display: block;
+}

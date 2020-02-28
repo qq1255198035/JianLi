@@ -1,0 +1,7 @@
+/* pages/about/about.wxss */
+#about .content{
+  width: 100%;
+}
+#about .content .text-content{
+  height: auto;
+}
