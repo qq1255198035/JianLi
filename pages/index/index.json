@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "about": "/pages/about/about"
+    "about": "/pages/about/about",
+    "works": "/pages/works/works",
+    "projects": "/pages/projects/projects"
   }
 }

@@ -1,2 +1,76 @@
 <!--pages/works/works.wxml-->
-<text>pages/works/works.wxml</text>
+<view id="works">
+  <view class="header bg-gradual-blue"></view>
+  <view class="cu-timeline">
+    <view class="cu-time">2018.11</view>
+    <view class="cu-item text-cyan">
+      <view class="content">
+        <view class="cu-capsule radius">
+          <view class="cu-tag bg-cyan">吉林省热动体育发展有限公司</view>
+          <view class="cu-tag line-cyan">前端</view>
+        </view>
+        <view class="margin-top">负责公司所有线上产品的开发与维护</view>
+          <view class="flex flex-wrap">
+            <view class="padding-xs">
+              <view class="cu-tag bg-green sm">The Custom KIng</view>
+            </view>
+            <view class="padding-xs">
+              <view class="cu-tag bg-red sm">赞立方系统</view>
+            </view>
+            <view class="padding-xs">
+              <view class="cu-tag bg-purple sm">篮战官网</view>
+            </view>
+            <view class="padding-xs">
+              <view class="cu-tag bg-cyan sm">热动购票H5</view>
+            </view>
+            <view class="padding-xs">
+              <view class="cu-tag bg-orange sm">热动商城小程序</view>
+            </view>
+          </view>
+      </view>
+    </view>
+    
+    <view class="cu-time">2018.09</view>
+    <view class="cu-item text-cyan">
+      <view class="content">
+        <view class="cu-capsule radius">
+          <view class="cu-tag bg-cyan">北京新基础生涯教育科技有限公司</view>
+          <view class="cu-tag line-cyan">前端</view>
+        </view>
+        <view class="margin-top">负责公司官网的升级与维护</view>
+          <view class="flex flex-wrap">
+            <view class="padding-xs">
+              <view class="cu-tag bg-green sm">新基础生涯教育官网</view>
+            </view>
+            <view class="padding-xs">
+              <view class="cu-tag bg-red sm">生涯指导平台</view>
+            </view>
+          </view>
+      </view>
+    </view>
+
+    <view class="cu-time">2018.01</view>
+    <view class="cu-item text-cyan">
+      <view class="content">
+        <view class="cu-capsule radius">
+          <view class="cu-tag bg-cyan">东高科技</view>
+          <view class="cu-tag line-cyan">前端</view>
+        </view>
+        <view class="margin-top">负责网站业务的前端开发与维护</view>
+        <view class="flex flex-wrap">
+          <view class="padding-xs">
+            <view class="cu-tag bg-green sm">欣妍商城H5</view>
+          </view>
+          <view class="padding-xs">
+            <view class="cu-tag bg-red sm">爱美商城H5</view>
+          </view>
+          <view class="padding-xs">
+            <view class="cu-tag bg-orange sm">吉林省信访平台</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+

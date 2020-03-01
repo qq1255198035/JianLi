@@ -1,0 +1,7 @@
+/* pages/projects/projects.wxss */
+.header{
+  height: 128rpx;
+}
+.tag-box{
+  margin-top: 10rpx;
+}

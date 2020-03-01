@@ -1,0 +1,186 @@
+<!--pages/projects/projects.wxml-->
+<view id="projects">
+  <view class="header bg-gradual-pink"></view>
+  <view class="cu-card article">
+    <view class="cu-item shadow">
+      <view class="title">
+        <view class="text-cut">The Custom KIng</view>
+      </view>
+      <view class="content">
+        <view class="desc">
+          <view class="text-content">
+            一个面向北美的可定制服装的多角色网站系统可实现在服装上自由绘制图案，可购买，可成为销售商，支付微信，PayPal支付。
+          </view>
+          <view class="tag-box">
+              <view class="cu-tag bg-red light sm round">VueCli3</view>
+              <view class="cu-tag bg-orange light sm round">Axios</view>
+              <view class="cu-tag bg-yellow light sm round">AntDesign</view>
+              <view class="cu-tag bg-green light sm round">Fabric.js</view>
+              <view class="cu-tag bg-blue light sm round">Less</view>
+            </view>
+          </view>
+      </view>
+    </view>
+
+    <view class="cu-item shadow">
+      <view class="title">
+        <view class="text-cut">赞立方系统</view>
+      </view>
+      <view class="content">
+        <view class="desc">
+          <view class="text-content">
+            一个多角色活动赞助系统,可接任务赚取佣金，也可发布活动申请赞助支持国际化,简繁英多语言切换。
+          </view>
+          <view class="tag-box">
+              <view class="cu-tag bg-red light sm round">VueCli3</view>
+              <view class="cu-tag bg-orange light sm round">Axios</view>
+              <view class="cu-tag bg-yellow light sm round">AntDesign</view>
+              <view class="cu-tag bg-green light sm round">Vuei18n</view>
+              <view class="cu-tag bg-blue light sm round">Less</view>
+            </view>
+          </view>
+      </view>
+    </view>
+
+    <view class="cu-item shadow">
+      <view class="title">
+        <view class="text-cut">篮战官网</view>
+      </view>
+      <view class="content">
+        <view class="desc">
+          <view class="text-content">
+            一个香港篮球比赛的活动官网，可浏览比赛信息与查看参赛队伍得分排名,响应式布局，支持移动端。
+          </view>
+          <view class="tag-box">
+              <view class="cu-tag bg-red light sm round">VueCli3</view>
+              <view class="cu-tag bg-green light sm round">Vuei18n</view>
+              <view class="cu-tag bg-blue light sm round">Less</view>
+            </view>
+          </view>
+      </view>
+    </view>
+
+    <view class="cu-item shadow">
+      <view class="title">
+        <view class="text-cut">热动购票H5</view>
+      </view>
+      <view class="content">
+        <view class="desc">
+          <view class="text-content">
+            一个即时活动购票的H5,可查看比赛信息并在线购票，支持微信支付。
+          </view>
+          <view class="tag-box">
+              <view class="cu-tag bg-red light sm round">VueCli3</view>
+              <view class="cu-tag bg-orange light sm round">Axios</view>
+              <view class="cu-tag bg-green light sm round">Mui</view>
+              <view class="cu-tag bg-blue light sm round">Less</view>
+            </view>
+          </view>
+      </view>
+    </view>
+
+    <view class="cu-item shadow">
+      <view class="title">
+        <view class="text-cut">热动商城小程序</view>
+      </view>
+      <view class="content">
+        <view class="desc">
+          <view class="text-content">
+            一个售卖体育服装产品的商城。
+          </view>
+          <view class="tag-box">
+              <view class="cu-tag bg-red light sm round">Vant</view>
+            </view>
+          </view>
+      </view>
+    </view>
+
+    <view class="cu-item shadow">
+      <view class="title">
+        <view class="text-cut">新基础生涯教育官网</view>
+      </view>
+      <view class="content">
+        <view class="desc">
+          <view class="text-content">
+            新基础生涯教育公司官网，可查看公司基本信息和新闻活动。.
+          </view>
+          <view class="tag-box">
+            <view class="cu-tag bg-red light sm round">Jquery</view>
+            <view class="cu-tag bg-green light sm round">Wow.js</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="cu-item shadow">
+      <view class="title">
+        <view class="text-cut">生涯指导平台</view>
+      </view>
+      <view class="content">
+        <view class="desc">
+          <view class="text-content">
+            新基础生涯教育公司线上服务产品，登录后可进行网上视频授课，和自我测评等服务。
+          </view>
+          <view class="tag-box">
+            <view class="cu-tag bg-red light sm round">Jquery</view>
+            <view class="cu-tag bg-green light sm round">Wow.js</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="cu-item shadow">
+      <view class="title">
+        <view class="text-cut">欣妍商城H5</view>
+      </view>
+      <view class="content">
+        <view class="desc">
+          <view class="text-content">
+            一个线上售卖化妆品的H5商城
+          </view>
+          <view class="tag-box">
+            <view class="cu-tag bg-red light sm round">Html5</view>
+            <view class="cu-tag bg-green light sm round">Jquery</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="cu-item shadow">
+      <view class="title">
+        <view class="text-cut">爱美商城H5</view>
+      </view>
+      <view class="content">
+        <view class="desc">
+          <view class="text-content">
+            一个线上售卖化妆品的H5商城。
+          </view>
+          <view class="tag-box">
+            <view class="cu-tag bg-red light sm round">Html5</view>
+            <view class="cu-tag bg-green light sm round">Jquery</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="cu-item shadow">
+      <view class="title">
+        <view class="text-cut">吉林省信访平台</view>
+      </view>
+      <view class="content">
+        <view class="desc">
+          <view class="text-content">
+            吉林省信访平台，可进行建议投诉评价查询等功能。
+          </view>
+          <view class="tag-box">
+            <view class="cu-tag bg-red light sm round">Html5</view>
+            <view class="cu-tag bg-green light sm round">Css3</view>
+            <view class="cu-tag bg-orange light sm round">Jquery</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+</view>
+

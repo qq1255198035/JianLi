@@ -1,6 +1,9 @@
 <!--index.wxml-->
 <view class="container">
   <about wx:if="{{PageCur=='about'}}"></about>
+  <works wx:if="{{PageCur=='works'}}"></works>
+  <projects wx:if="{{PageCur=='projects'}}"></projects>
+  <view class='cu-tabbar-height'></view>
   <view class="cu-bar tabbar bg-white shadow foot">
     <view class="action" bindtap="NavChange" data-cur="about">
       <view class='cuIcon-cu-image'>
@@ -8,15 +11,15 @@
       </view>
       <view class="{{PageCur=='about'?'text-green':'text-gray'}}">个人信息</view>
     </view>
-    <view class="action" bindtap="NavChange" data-cur="basics">
+    <view class="action" bindtap="NavChange" data-cur="works">
       <view class='cuIcon-cu-image'>
-        <image src="/images/tabbar/basics{{PageCur=='basics'?'_cur':''}}.png"></image>
+        <image src="/images/tabbar/basics{{PageCur=='works'?'_cur':''}}.png"></image>
       </view>
       <view class="{{PageCur=='basics'?'text-green':'text-gray'}}">工作经历</view>
     </view>
-    <view class="action" bindtap="NavChange" data-cur="component">
+    <view class="action" bindtap="NavChange" data-cur="projects">
       <view class='cuIcon-cu-image'>
-        <image src="/images/tabbar/component{{PageCur=='component'?'_cur':''}}.png"></image>
+        <image src="/images/tabbar/component{{PageCur=='projects'?'_cur':''}}.png"></image>
       </view>
       <view class="{{PageCur=='component'?'text-green':'text-gray'}}">项目经历</view>
     </view>
